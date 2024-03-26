@@ -1,0 +1,28 @@
+html{
+  box-sizing: border-box;
+}
+*,
+* ::before, 
+* ::after{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+}
+.container{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
